@@ -1,7 +1,8 @@
 const { validateUseBuiltInsOption } = require("@babel/preset-env/lib/normalize-options");
 
 // Code your solutions in this file
-writeCards(["Guadalupe","Ollie","Aki","surprise"]);
+ const names = ["Guadalupe", "Ollie", "Aki"];
+ const event = "surprise"
 
 function writeCards(names, event ) {
   const newNames = []
